@@ -1,0 +1,582 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1698609582302897, "dur":2727, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698609582305635, "dur":838, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1698609582306564, "dur":78, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1698609582306642, "dur":777, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1698609582307467, "dur":1481, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698609582308948, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698609582441013, "dur":482, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698609582441495, "dur":43, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698609582441538, "dur":89, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698609582441627, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698609582441640, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698609582441643, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698609582441652, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698609582441655, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698609582441666, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698609582441669, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698609582441677, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698609582441680, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698609582441688, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698609582441691, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698609582441699, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698609582441702, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698609582441709, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698609582441712, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698609582441720, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698609582441722, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698609582441730, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698609582441732, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698609582441741, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698609582441744, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698609582441751, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698609582441772, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698609582441806, "dur":12113, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1698609582308216, "dur":818, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698609582309034, "dur":16034, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698609582325082, "dur":567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1698609582325660, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698609582335485, "dur":6280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1698609582341885, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1698609582342101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698609582342808, "dur":7136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1698609582350070, "dur":772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698609582350847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698609582350855, "dur":3679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698609582354649, "dur":650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698609582355302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698609582355308, "dur":4337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698609582359732, "dur":839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698609582360575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698609582360580, "dur":4903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698609582365710, "dur":732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698609582366450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698609582366462, "dur":3832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698609582370378, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698609582370667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698609582370679, "dur":4624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698609582375417, "dur":638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698609582376059, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698609582376065, "dur":4339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698609582380512, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698609582380765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698609582380773, "dur":9832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698609582390739, "dur":1018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698609582391761, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698609582391767, "dur":5874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698609582397768, "dur":2473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698609582400247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698609582400257, "dur":3316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698609582403659, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/fps.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698609582404015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698609582404654, "dur":3647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/fps.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698609582408408, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1698609582408523, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698609582408669, "dur":3470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1698609582412273, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1698609582412558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698609582412566, "dur":4021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1698609582416709, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1698609582416856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698609582416863, "dur":4746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1698609582421743, "dur":19262, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698609582308649, "dur":526, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698609582309175, "dur":15880, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698609582325082, "dur":1888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1698609582326977, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698609582335592, "dur":3211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1698609582338888, "dur":880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1698609582339771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698609582339778, "dur":2825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1698609582342710, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698609582343026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698609582343222, "dur":2515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698609582345820, "dur":1496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698609582347323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698609582347336, "dur":2735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698609582350303, "dur":785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698609582351093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698609582351101, "dur":4805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698609582356007, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698609582356241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698609582356247, "dur":3892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698609582360320, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698609582360601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698609582360607, "dur":4479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698609582365168, "dur":775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698609582365950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698609582365962, "dur":4675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698609582370725, "dur":881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698609582371614, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698609582371627, "dur":3769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698609582375500, "dur":1037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698609582376541, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698609582376547, "dur":4869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698609582381498, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698609582381684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698609582381691, "dur":9377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698609582391188, "dur":666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698609582391858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698609582391866, "dur":6605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698609582398582, "dur":8559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698609582407149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698609582407160, "dur":4604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698609582411917, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1698609582412035, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698609582412046, "dur":8168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1698609582420318, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1698609582420422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698609582420430, "dur":4184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1698609582424706, "dur":16327, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698609582309103, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698609582309104, "dur":15960, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698609582325082, "dur":475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1698609582325573, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698609582333685, "dur":1747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1698609582335527, "dur":1364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1698609582336895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698609582336996, "dur":4880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1698609582342004, "dur":403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698609582342412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698609582343188, "dur":2587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698609582345876, "dur":1673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698609582347554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698609582347563, "dur":3607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698609582351295, "dur":1096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698609582352428, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698609582352435, "dur":5661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698609582358216, "dur":1130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698609582359353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698609582359365, "dur":3813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698609582363265, "dur":691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698609582363960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698609582363966, "dur":3956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698609582368044, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698609582368344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698609582368351, "dur":3918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698609582372370, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698609582372696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698609582372704, "dur":5269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698609582378076, "dur":739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698609582378819, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698609582378824, "dur":4614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698609582383512, "dur":527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698609582384042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698609582384048, "dur":7952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698609582392080, "dur":856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698609582392939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698609582392945, "dur":3800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698609582396848, "dur":1357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698609582398232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698609582398242, "dur":4167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698609582402533, "dur":459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698609582402997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698609582403007, "dur":3304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698609582406425, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/fps.Game.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698609582406753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698609582406765, "dur":3759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/fps.Game.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698609582410688, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1698609582410809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698609582410816, "dur":7818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1698609582418755, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1698609582418874, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698609582418883, "dur":4524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1698609582423532, "dur":17495, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698609582308155, "dur":818, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698609582308980, "dur":16071, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698609582325081, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1698609582325095, "dur":1055, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698609582326154, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1698609582326163, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698609582331096, "dur":2934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1698609582334034, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1698609582334201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698609582336179, "dur":5104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1698609582341365, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1698609582341553, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698609582341562, "dur":1825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1698609582343495, "dur":3070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698609582346573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698609582346586, "dur":2755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698609582349433, "dur":740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698609582350178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698609582350187, "dur":2434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698609582352699, "dur":433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698609582353135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698609582353141, "dur":6837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698609582360093, "dur":844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698609582360942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698609582360951, "dur":3045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698609582364099, "dur":521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698609582364627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698609582364639, "dur":4731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698609582369461, "dur":689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698609582370159, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698609582370176, "dur":3614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698609582373873, "dur":691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698609582374568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698609582374574, "dur":5097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698609582379767, "dur":435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698609582380206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698609582380212, "dur":7609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698609582387896, "dur":743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698609582388643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698609582388651, "dur":5397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698609582394130, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698609582394334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698609582394340, "dur":3759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698609582398232, "dur":3687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698609582401926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698609582401938, "dur":4927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698609582406991, "dur":416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698609582407415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698609582407426, "dur":2710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698609582410274, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1698609582410497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698609582410506, "dur":6457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1698609582417074, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1698609582417812, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698609582417822, "dur":5428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1698609582423365, "dur":17628, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698609582308421, "dur":672, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698609582309093, "dur":16024, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698609582325118, "dur":467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1698609582325597, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698609582335700, "dur":5754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1698609582341606, "dur":4196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698609582345806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698609582346128, "dur":1707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698609582347916, "dur":850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698609582348771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698609582348780, "dur":2712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698609582351637, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698609582351985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698609582351997, "dur":4831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698609582356946, "dur":499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698609582357449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698609582357455, "dur":3593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698609582361215, "dur":885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698609582362109, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698609582362121, "dur":4806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698609582367036, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698609582367305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698609582367312, "dur":3978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698609582371442, "dur":1982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698609582373431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698609582373442, "dur":5719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698609582379242, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698609582379494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698609582379500, "dur":8078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698609582387660, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698609582387898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698609582387905, "dur":6103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698609582394082, "dur":3851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698609582397938, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698609582397951, "dur":3956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698609582402031, "dur":2356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698609582404396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698609582404408, "dur":4094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698609582408616, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1698609582408763, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698609582408770, "dur":17588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1698609582426436, "dur":14568, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698609582308866, "dur":371, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698609582309238, "dur":15828, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698609582325080, "dur":1417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1698609582326557, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698609582335204, "dur":3935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1698609582339221, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1698609582339371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698609582339378, "dur":3246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1698609582342801, "dur":2471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698609582345277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698609582345286, "dur":3249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698609582348641, "dur":833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698609582349479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698609582349486, "dur":2043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698609582351665, "dur":1679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698609582353349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698609582353358, "dur":5612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698609582359083, "dur":804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698609582359892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698609582359901, "dur":2825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698609582362809, "dur":436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698609582363252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698609582363264, "dur":4475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698609582367825, "dur":878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698609582368711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698609582368723, "dur":3465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698609582372284, "dur":883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698609582373175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698609582373187, "dur":4810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698609582378085, "dur":826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698609582378918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698609582378930, "dur":8232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698609582387239, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698609582387472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698609582387481, "dur":5963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698609582393522, "dur":1507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698609582395063, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698609582395075, "dur":3407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698609582398603, "dur":853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698609582399460, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698609582399472, "dur":3379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698609582402965, "dur":1523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698609582404581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698609582404593, "dur":3767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698609582408459, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":6, "ts":1698609582408575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698609582408582, "dur":7468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":6, "ts":1698609582416162, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/level2.resS" }}
+,{ "pid":12345, "tid":6, "ts":1698609582416289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698609582416302, "dur":3025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/level2.resS" }}
+,{ "pid":12345, "tid":6, "ts":1698609582419425, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1698609582419506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698609582419511, "dur":2965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1698609582422583, "dur":18449, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698609582309368, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698609582309369, "dur":15711, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698609582325082, "dur":572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1698609582325666, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698609582336051, "dur":5691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1698609582341878, "dur":1085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480.exe" }}
+,{ "pid":12345, "tid":7, "ts":1698609582342969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698609582342978, "dur":1825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480.exe" }}
+,{ "pid":12345, "tid":7, "ts":1698609582344904, "dur":1767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698609582346676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698609582346684, "dur":3323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698609582350122, "dur":838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698609582350969, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698609582351009, "dur":3667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698609582354764, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698609582355074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698609582355081, "dur":4843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698609582360039, "dur":419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698609582360462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698609582360468, "dur":4097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698609582364652, "dur":639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698609582365295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698609582365303, "dur":4007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698609582369413, "dur":628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698609582370049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698609582370061, "dur":3003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698609582373265, "dur":939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698609582374214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698609582374222, "dur":5604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698609582379954, "dur":827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698609582380789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698609582380803, "dur":8823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698609582389707, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698609582389911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698609582389917, "dur":4998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698609582395026, "dur":1141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698609582396170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698609582396176, "dur":2970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698609582399251, "dur":1746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698609582401003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698609582401015, "dur":3243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698609582404392, "dur":439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/fps.Gameplay.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698609582404855, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698609582404864, "dur":4069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/fps.Gameplay.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698609582409056, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1698609582409176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698609582409183, "dur":4558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1698609582413898, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1698609582414037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698609582414061, "dur":3856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1698609582418062, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1698609582418192, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698609582418206, "dur":3841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1698609582422202, "dur":18828, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698609582309596, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698609582309597, "dur":15486, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698609582325085, "dur":1873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1698609582326965, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698609582334974, "dur":2492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1698609582337574, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1698609582337725, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698609582337731, "dur":4355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1698609582342202, "dur":1443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698609582343651, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698609582344337, "dur":1659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698609582346080, "dur":1749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698609582347833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698609582347840, "dur":3359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698609582351322, "dur":974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698609582352303, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698609582352317, "dur":5859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698609582358286, "dur":329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698609582358619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698609582358625, "dur":2964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698609582361711, "dur":724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698609582362440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698609582362449, "dur":4397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698609582366977, "dur":474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698609582367456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698609582367464, "dur":3897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698609582371476, "dur":979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698609582372463, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698609582372476, "dur":4126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698609582376683, "dur":370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698609582377058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698609582377066, "dur":6844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698609582383990, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698609582384193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698609582384199, "dur":7535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698609582391857, "dur":1147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698609582393008, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698609582393015, "dur":3747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698609582396856, "dur":1097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698609582397960, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698609582397973, "dur":3766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698609582401865, "dur":434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698609582402307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698609582402407, "dur":4094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698609582406610, "dur":417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/fps.AI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698609582407032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698609582407042, "dur":3173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/fps.AI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698609582410333, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1698609582410587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698609582410598, "dur":4082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1698609582414809, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/level3.resS" }}
+,{ "pid":12345, "tid":8, "ts":1698609582414922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698609582414930, "dur":6076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/level3.resS" }}
+,{ "pid":12345, "tid":8, "ts":1698609582421247, "dur":19764, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698609582309833, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698609582309834, "dur":15226, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698609582325082, "dur":1605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1698609582326694, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698609582335528, "dur":6087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1698609582341729, "dur":88137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698609582429870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698609582429875, "dur":10996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698609582440950, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":9, "ts":1698609582440952, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698609582310064, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698609582310065, "dur":14992, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698609582325081, "dur":473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1698609582325572, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698609582335969, "dur":5570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1698609582341659, "dur":22915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698609582364578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698609582364697, "dur":5083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698609582369885, "dur":966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698609582370855, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698609582370860, "dur":4631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698609582375597, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698609582375892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698609582375898, "dur":5079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698609582381088, "dur":945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698609582382037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698609582382046, "dur":8993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698609582391150, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698609582391401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698609582391412, "dur":6099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698609582397627, "dur":1311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698609582398941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698609582398947, "dur":3472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698609582402545, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/NavMeshComponents.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698609582402850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698609582402858, "dur":4628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/NavMeshComponents.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698609582407601, "dur":504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698609582408113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698609582409373, "dur":2682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698609582413258, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1698609582413391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698609582413400, "dur":7562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1698609582421102, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1698609582421392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698609582421402, "dur":2369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1698609582423880, "dur":17111, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698609582310270, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698609582310271, "dur":14844, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698609582325116, "dur":1566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1698609582326692, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698609582335675, "dur":5697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1698609582341499, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1698609582341727, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698609582341736, "dur":2483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1698609582344298, "dur":2339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698609582346641, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698609582346648, "dur":3882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698609582350708, "dur":1145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698609582351858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698609582351867, "dur":6486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698609582358466, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698609582358712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698609582358721, "dur":2980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698609582361809, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698609582362230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698609582362238, "dur":4588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698609582366941, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698609582367258, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698609582367264, "dur":4105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698609582371701, "dur":774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698609582372483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698609582372494, "dur":5693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698609582378295, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698609582378685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698609582378696, "dur":8017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698609582386813, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698609582387015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698609582387021, "dur":5755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698609582392876, "dur":1140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698609582394020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698609582394026, "dur":3580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698609582397718, "dur":915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698609582398642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698609582398653, "dur":3748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698609582402753, "dur":7727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698609582410498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698609582410510, "dur":10182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698609582420825, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1698609582421115, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698609582421129, "dur":3351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1698609582424603, "dur":16428, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698609582310499, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698609582310499, "dur":14586, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698609582325086, "dur":597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1698609582325690, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698609582335635, "dur":5966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1698609582341732, "dur":7175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1698609582348910, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698609582348916, "dur":2488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1698609582351512, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698609582351841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698609582351852, "dur":5238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698609582357227, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698609582357573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698609582357584, "dur":3381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698609582361059, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698609582361449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698609582361481, "dur":3907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698609582365523, "dur":478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698609582366006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698609582366015, "dur":3971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698609582370136, "dur":982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698609582371122, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698609582371127, "dur":4422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698609582375657, "dur":815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698609582376476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698609582376485, "dur":5807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698609582382369, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698609582382560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698609582382589, "dur":9393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698609582392072, "dur":11671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698609582403748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698609582403757, "dur":5355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698609582409227, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":12, "ts":1698609582409348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698609582409359, "dur":3493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":12, "ts":1698609582412963, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1698609582413252, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698609582413305, "dur":1601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1698609582414999, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/level3" }}
+,{ "pid":12345, "tid":12, "ts":1698609582415102, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698609582415109, "dur":5784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/level3" }}
+,{ "pid":12345, "tid":12, "ts":1698609582421021, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1698609582421277, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698609582421285, "dur":2764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/v0.006/v0.006_Windows/StanleyF_FPSMicrogameAssignment_2021322f1_DIG3480_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1698609582424134, "dur":16895, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698609582455706, "dur":2769, "ph":"X", "name": "ProfilerWriteOutput" }
+,
